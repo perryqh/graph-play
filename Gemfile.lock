@@ -103,8 +103,13 @@ GEM
     erubi (1.13.0)
     globalid (1.2.1)
       activesupport (>= 6.1)
+    graphiql-rails (1.10.0)
+      railties
     graphql (2.3.7)
       base64
+    graphql-client (0.23.0)
+      activesupport (>= 3.0)
+      graphql (>= 1.13.0)
     i18n (1.14.5)
       concurrent-ruby (~> 1.0)
     importmap-rails (2.0.1)
@@ -262,7 +267,9 @@ DEPENDENCIES
   bootsnap
   capybara
   debug
+  graphiql-rails
   graphql (~> 2.3)
+  graphql-client
   importmap-rails
   jbuilder
   pg
